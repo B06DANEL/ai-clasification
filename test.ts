@@ -1,4 +1,4 @@
-AI.setvecsize(2)
-AI.addtodata([0, 1],"<")
-AI.addtodata([1, 0], ">")
-basic.showString(AI.clasify([5,2]))
+AIclasification.setvecsize(2)
+AIclasification.addtodata([0, 1],"<")
+AIclasification.addtodata([1, 0], ">")
+basic.showString(AIclasification.clasify([5,2]))
