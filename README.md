@@ -1,4 +1,4 @@
-**"AI Clasification"** is an extension for Micro:bit that, does exactly what you expect.
+**"AI Clasification"** is an extension for Makecode, that does exactly what you expect.
 
 Blocks:
 
