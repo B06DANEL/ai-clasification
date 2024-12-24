@@ -3,7 +3,6 @@
 let trainingdataVec = [[0]]
 let trainingdataClass = [""]
 let startofTrainingData = true
-let vectorsize = 0
 
 //% color=340
 //% color="#d79df5"
@@ -16,10 +15,6 @@ namespace AIclasification {
             distsquared += (vec1[i] - vec2[i]) * (vec1[i] - vec2[i])
         }
         return distsquared
-    }
-    //% block="set vector dimensionality (size) to $size"
-    export function setvecsize(size: number) {
-        vectorsize = size
     }
     //% block="add to training dataset vector $vector , with classification $classname"
     export function addtodata(vector: number[], classname: string) {
