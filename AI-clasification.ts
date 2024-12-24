@@ -9,7 +9,7 @@ let vectorsize = 0
 //% color="#d79df5"
 //% icon=""
 
-namespace AI {
+namespace AIclasification {
     function distance(vec1: number[], vec2: number[]) {
         let distsquared = 0
         for (let i = 0; i < vec1.length; i++) {
