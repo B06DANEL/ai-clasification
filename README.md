@@ -1,8 +1,6 @@
-**"AI Clasification"** is an extension for Makecode, that does exactly what you expect.
+**"Voronoi Clasification"** is an extension for Makecode that clasifies some vector based on training data.
 
 Blocks:
-
-  •**"Set vector dimensionality to (size)"**
 
   •**"Add to training dataset vector (vector) , with classification (classname)"**
 
