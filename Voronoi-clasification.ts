@@ -1,5 +1,5 @@
 
-//AI clasification
+//Voronoi clasification
 let trainingdataVec = [[0]]
 let trainingdataClass = [""]
 let startofTrainingData = true
@@ -8,7 +8,7 @@ let startofTrainingData = true
 //% color="#d79df5"
 //% icon=""
 
-namespace AIclasification {
+namespace VORONOIclasification {
     function distance(vec1: number[], vec2: number[]) {
         let distsquared = 0
         for (let i = 0; i < vec1.length; i++) {
